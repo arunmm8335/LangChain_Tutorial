@@ -5,6 +5,19 @@ build/
 dist/
 wheels/
 *.egg-info
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
 
 # Virtual environments
-.venv
+.venv/
+
+# Environment and local config
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# # Generated local data
+# *.db
